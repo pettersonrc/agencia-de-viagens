@@ -1,0 +1,150 @@
+/* Estilizações Globais */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80808029;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.logo-topo {
+    width: 32px;
+    height: 32px;
+}
+
+.cabecalho-container p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+/* Seção Formulário */
+
+#form {
+    width: 100%;
+    background-image: url("/assets/bahia.jpg");
+}
+
+.formulario-container {
+    width: 100%;
+    height: auto;
+}
+
+.topo-formulario {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-formulario img {
+    height: 20px;
+    width: 20px;
+    rotate: -45deg;
+}
+
+.topo-formulario p {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.formulario {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario label {
+    font-size: 16px;
+}
+
+.formulario .texto,
+select {
+    margin: 10px 0px;
+    height: 32px;
+    width: 100%;
+}
+
+.formulario .texto {
+    padding: 0px 5px;
+}
+
+.formulario select {
+    padding: 0px 3px;
+}
+
+.ida-volta,
+.origem-destino {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.card {
+    width: calc(50% - 10px);
+}
+
+.titulo-radio-checkbox {
+    margin: 20px 0px;
+}
+
+.alinhamento-inicio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.label-radio-checkbox {
+    width: 120px;
+}
+
+.marcacao {
+    width: 15px;
+}
+
+.botao-submit {
+    height: 32px;
+    width: 160px;
+    border: none;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 12px;
+}
